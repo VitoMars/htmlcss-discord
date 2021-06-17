@@ -36,8 +36,6 @@ header nav img {
   line-height: 80px;
   width: calc((100% / 5) * 3);
   text-align: center;
-  /* padding-left: 200px;
-  padding-right: 200px; */
 }
 
 a {
@@ -52,4 +50,26 @@ a {
   border-radius: 40px;
   background-color: white;
   color: black;
+}
+
+.contenitore-home {
+  height: 570px;
+  width: 100%;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 56px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.text {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  width: 780px;
 }
