@@ -13,6 +13,12 @@ body {
   font-family: Whitney;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .home-bar {
   position: relative;
   height: 80px;
@@ -99,4 +105,34 @@ h1 {
 #browser {
   background-color: black;
   color: white;
+}
+
+.container_main {
+  position: relative;
+  margin: 0 auto; /*Centratura */
+  /* height: 200px; */
+  margin-top: 5%;
+  width: 70%;
+  /* background-color: red; */
+}
+
+.testo {
+  position: absolute;
+  display: inline;
+  top: 7%;
+  right: 10%;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 48px;
+  height: 228px;
+  width: 320px;
+}
+
+.testo p {
+  margin-top: 10%;
+  font-size: 20px;
+  height: 128px;
+  width: 320px;
 }
