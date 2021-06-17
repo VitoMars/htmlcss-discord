@@ -13,24 +13,50 @@ body {
   font-family: Whitney;
 }
 
-#home-bar {
+/* Clearfix */
+/* .clearfix {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.home-bar {
   height: 80px;
   width: 100%;
   background-color: #404eed;
-  /* vertical-align: middle; */
+  line-height: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-nav img {
-  line-height: 80px;
-  /* vertical-align: middle; */
+.cont_img {
+  display: inline-block;
+  height: 80px;
+  width: calc(100% / 5);
+}
+
+header nav img {
+  vertical-align: middle;
 }
 
 .links {
-  /* line-height: 80px;
-  text-align: center; */
+  display: inline-block;
+  line-height: 80px;
+  width: calc((100% / 5) * 3);
+  text-align: center;
+  /* padding-left: 200px;
+  padding-right: 200px; */
 }
 
-/* a {
+a {
   color: white;
   text-decoration: none;
-} */
+  padding-right: 20px;
+}
+
+.login {
+  display: inline;
+  padding: 7px 16px;
+  border-radius: 40px;
+  background-color: white;
+}
