@@ -4,12 +4,33 @@
   box-sizing: border-box;
 }
 
-body {
-  /* font-family: "Whitney";
-  src: url(../fonts/whitney.woff); */
-}
-
 @font-face {
   font-family: Whitney;
-  src: url(../fonts/whitney.otf);
+  src: url(../fonts/whitney.woff);
 }
+
+body {
+  font-family: Whitney;
+}
+
+#home-bar {
+  height: 80px;
+  width: 100%;
+  background-color: #404eed;
+  /* vertical-align: middle; */
+}
+
+nav img {
+  line-height: 80px;
+  /* vertical-align: middle; */
+}
+
+.links {
+  /* line-height: 80px;
+  text-align: center; */
+}
+
+/* a {
+  color: white;
+  text-decoration: none;
+} */
