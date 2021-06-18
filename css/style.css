@@ -44,10 +44,13 @@ header nav img {
   text-align: center;
 }
 
+.links a {
+  padding-right: 20px;
+}
+
 a {
   color: white;
   text-decoration: none;
-  padding-right: 20px;
 }
 
 .login {
@@ -214,12 +217,16 @@ footer h4 {
   margin-top: 20px;
 }
 
-/* Colonna 1 */
+.social a {
+  padding-right: 20px;
+}
+
+/* Colonne */
 
 .col {
   float: left;
-  width: 11%;
-  margin-right: 50px;
+  width: 9%;
+  margin-right: 100px;
 }
 
 h5 {
@@ -231,4 +238,26 @@ h5 {
 .col a {
   display: inline-block;
   margin-top: 8px;
+}
+
+/* Footer Bottom */
+
+.bottom {
+  border-top: 1px solid #7289da;
+  margin-top: 100px;
+}
+
+.bottom .row {
+  padding-top: 50px;
+}
+
+.bottom .cont_img {
+  float: left;
+}
+
+.registrati {
+  float: right;
+  padding: 7px 16px;
+  border-radius: 40px;
+  background-color: #8ea1e1;
 }
