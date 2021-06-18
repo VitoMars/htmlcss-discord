@@ -178,21 +178,26 @@ h1 {
 footer {
   margin-top: 150px;
   padding-top: 80px;
-  height: 500px;
+  height: 650px;
   background-color: #23272a;
+}
+
+.col_main {
+  float: left;
+  margin-right: 5%;
 }
 
 .up,
 .bottom {
   margin: 0 auto;
-  width: 70%;
+  width: 65%;
 }
 
 footer h4 {
   font-size: 32px;
   color: #7289da;
   width: 280px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .up #ita {
@@ -206,6 +211,24 @@ footer h4 {
 }
 
 .social {
-  z-index: 999;
-  color: white;
+  margin-top: 20px;
+}
+
+/* Colonna 1 */
+
+.col {
+  float: left;
+  width: 11%;
+  margin-right: 50px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #7289da;
+  padding-top: 8px;
+}
+
+.col a {
+  display: inline-block;
+  margin-top: 8px;
 }
